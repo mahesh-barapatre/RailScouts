@@ -3,7 +3,7 @@ import React from "react";
 import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
 
 const Entrance = ({ x, y }) => {
-  const gltf = useLoader(GLTFLoader, "../../../public/Entrance.glb"); // Path to shop model
+  const gltf = useLoader(GLTFLoader, "/Entrance.glb"); // Path to shop model
 
   gltf.scene.rotation.x = Math.PI;
   return (

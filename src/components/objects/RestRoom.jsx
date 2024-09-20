@@ -3,7 +3,7 @@ import React from "react";
 import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
 
 const RestRoom = ({ x, y }) => {
-  const gltf = useLoader(GLTFLoader, "../../../public/RestRoom.glb"); // Path to shop model
+  const gltf = useLoader(GLTFLoader, "/RestRoom.glb"); // Path to shop model
 
   return (
     <primitive
