@@ -4,8 +4,8 @@ import { naviData } from "../utils/navigationData";
 
 const LocationSelection = ({ setStart, setEnd }) => {
   return (
-    <div className="p-4 flex space-x-5">
-      <div className="mb-6">
+    <div className="p-2 flex space-x-5 absolute top-3 left-3 z-10">
+      <div className="" id="start">
         <label className="block text-gray-700 font-medium mb-2">
           Select Starting Amenity:
           <select
@@ -32,7 +32,7 @@ const LocationSelection = ({ setStart, setEnd }) => {
           </select>
         </label>
       </div>
-      <div className="mb-6">
+      <div className="" id="end">
         <label className="block text-gray-700 font-medium mb-2">
           Select Ending Amenity:
           <select
