@@ -65,7 +65,7 @@ const Mascot = () => {
             Skip
           </button>
         </div>
-        <img src="../../public/file.png" alt="mascot" />
+        <img src="/file.png" alt="mascot" />
       </div>
     )
   );
